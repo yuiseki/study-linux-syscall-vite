@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { GameState, GameSettings, Statistics } from './types';
 import { loadSettings, saveSettings, loadStatistics, shouldReduceMotion } from './utils/storage';
 import { useQuizGame } from './hooks/useQuizGame';

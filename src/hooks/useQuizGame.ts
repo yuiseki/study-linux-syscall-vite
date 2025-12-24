@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { generateQuestion, QuestionData, Difficulty } from '../data/questions';
+import { generateQuestion, QuestionData } from '../data/questions';
 import { GameSession, QuestionResult, GameSettings, Statistics } from '../types';
 import { loadStatistics, saveStatistics } from '../utils/storage';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { GameSettings, Statistics } from '../types';
 import { loadStatistics } from '../utils/storage';
 
 interface MenuScreenProps {
